@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://vitalpulse-backend.onrender.com/:path*"
+      "destination": "https://vitalpulse-backend.onrender.com/api/:path*"
     },
     {
       "source": "/(.*)",
